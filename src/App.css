@@ -2,11 +2,16 @@
   --color-main: rgb(54, 162, 235);
   --color-primary: rgb(253, 174, 191);
   --color-secondary: rgb(255, 99, 132);
-  color-scheme: light;
+  color-scheme: dark;
 }
 a{
   text-decoration: none;
 }
+/* CUSTOM BOOTSTRAP STYLES */
+.bg-main{
+  background: #100c2a;
+}
+
 /* Navigation styles */
 .navigation-wrapper{
   width: 100vw;
