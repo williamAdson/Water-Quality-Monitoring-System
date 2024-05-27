@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { AuthData } from '../../auth/AuthWrapper'
 
 export const Account = () => {

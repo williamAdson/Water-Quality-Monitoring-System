@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { useReducer, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AuthData } from '../../auth/AuthWrapper';
