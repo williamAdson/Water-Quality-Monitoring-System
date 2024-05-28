@@ -8,11 +8,7 @@ import { Transaction } from "../boards/Transaction"
 export const Private = () => {
      return (
           <div>
-               <BLockchain />
-               <Analysis />
-               <Environment />
                <Lifecycle />
-               <Transaction />
           </div>
     )
 }

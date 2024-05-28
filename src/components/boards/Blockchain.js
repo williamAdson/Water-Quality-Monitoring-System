@@ -24,7 +24,7 @@ export const BLockchain = () => {
             {
               name: '智能合约',
               type: 'pie',
-              radius: [50, 250],
+              radius: [50, 150],
               center: ['50%', '50%'],
               roseType: 'area',
               itemStyle: {
@@ -43,15 +43,12 @@ export const BLockchain = () => {
 
     return (
         <div className='container'>
-            <h2>区块链交易</h2>
+            <h2 className='text-center m-2'>区块链交易</h2>
             {/* first column */}
             <div className='row'>
-                <h2>综合概况</h2>
+                <h4 className='m-2'>综合概况</h4>
                 <div className='col-sm-3'>
                     <div>
-                        <div className="d-flex justify-content-center align-items-center bg-primary text-white">
-                            <p>30</p>
-                        </div>
                         <span>智能合约</span>
                     </div>
                 </div>
@@ -68,18 +65,13 @@ export const BLockchain = () => {
             </div>
             {/* second column */}
             <div className='row'>
-                <h2>区块链交易记录</h2>
+                <h4 className='m-2'>区块链交易记录</h4>
                 <Fivecolumn data={data} />
             </div>
             {/* third column */}
             <div className='row'>
-                <h2>综合分析</h2>
-                <div className='col-sm-5'>
-                    <div>
-                        <ReactECharts option={eChartsOptions} />
-                    </div>
-                </div>
-                <div className='col-sm-5'>
+                <h4 className='m-2'>综合分析</h4>
+                <div className='col-sm-10'>
                     <div>
                         <ReactECharts option={eChartsOptions} />
                     </div>
